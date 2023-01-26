@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to right, rgb(30, 110, 220) 25%, rgb(113, 54, 181) 80%);
+}
+
+hr{
+    border-width: 1.25px;
+    opacity: 0.5;
+}
+
+.container{
+    width: 325px;
+    height: 345px;
+    margin: 75px 0 0 600px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.container-top{
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-middle{
+    width: 100%;
+    margin: 5px 0 15px 27.5px;
+    color: darkgrey;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    opacity: 0.8;
+}
+
+input[type = "text"], input[type = "password"]{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 5px 4px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    opacity: 0.8;
+}
+
+input[type = "text"]:focus, input[type = "password"]:focus{
+    outline: none;
+}
+
+.psw-recover{
+    margin-left: 4px;
+    margin-top: 0;
+}
+
+.container-bottom{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-button{
+    width: 82.5%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 7.5px;
+    background-color: #0962ea;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.login-button:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    ber: 1px solid black;ord
+}
+
+a{
+    text-decoration: none;
+    color: #1E90FF;
+}
